@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "81010658776",
+    "project_id": "dash-forkobo",
+    "storage_bucket": "dash-forkobo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81010658776:android:eed58c67b4502906ce36ad",
+        "android_client_info": {
+          "package_name": "com.forkobo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81010658776-ehit8a2ke5baqvima2hqh4r44lnv4eaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forkobo.app",
+            "certificate_hash": "880f13b6c2229bd11228f4ce2763d8266a72d263"
+          }
+        },
+        {
+          "client_id": "81010658776-608mhpmmhbf6e8lkgqe3vi70fq74nifv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuUsSTrOnOauYvrDIFW9W_RvMaZ7A5gDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81010658776-608mhpmmhbf6e8lkgqe3vi70fq74nifv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "81010658776-6l1lj09jaskv3ks6tu6gurprqloaojp7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.forkobo.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81010658776:android:a84d2d198e781b54ce36ad",
+        "android_client_info": {
+          "package_name": "com.forkobo.merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81010658776-608mhpmmhbf6e8lkgqe3vi70fq74nifv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuUsSTrOnOauYvrDIFW9W_RvMaZ7A5gDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81010658776-608mhpmmhbf6e8lkgqe3vi70fq74nifv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "81010658776-6l1lj09jaskv3ks6tu6gurprqloaojp7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.forkobo.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81010658776:android:3508227b29db4b81ce36ad",
+        "android_client_info": {
+          "package_name": "com.forkobo.merchant.forkobo_merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81010658776-608mhpmmhbf6e8lkgqe3vi70fq74nifv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuUsSTrOnOauYvrDIFW9W_RvMaZ7A5gDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81010658776-608mhpmmhbf6e8lkgqe3vi70fq74nifv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "81010658776-6l1lj09jaskv3ks6tu6gurprqloaojp7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.forkobo.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

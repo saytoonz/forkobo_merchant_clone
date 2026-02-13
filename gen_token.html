@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login with Email and Password</title>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyDPbYOiFfy2s4mMhxxS2LPCEVRzGsitonQ",
+        authDomain: "dash-forkobo.firebaseapp.com",
+        projectId: "dash-forkobo",
+        storageBucket: "dash-forkobo.firebasestorage.app",
+        messagingSenderId: "81010658776",
+        appId: "1:81010658776:web:3255fcf4c0e5bcd3ce36ad",
+      };
+      // Initialize Firebase
+      const app = firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body style="width: 100%">
+    <div
+      style="
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+      "
+    >
+      <h4 style="text-wrap: wrap" id="session">loading</h4>
+    </div>
+    <!-- The Firebase library -->
+
+    <script>
+      async function loginWithEmailAndPassword(email, password) {
+        try {
+          const { user } = await firebase
+            .auth()
+            .signInWithEmailAndPassword(email, password);
+          const token = await user.getIdToken();
+          console.log("Session token:", token);
+          document.getElementById("session").innerText = token;
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+      const email = "rassay31@gmail.com";
+      const password = "12345678";
+
+      loginWithEmailAndPassword(email, password);
+    </script>
+  </body>
+</html>

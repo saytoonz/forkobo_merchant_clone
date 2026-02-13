@@ -1,0 +1,36 @@
+{
+    "appName": "Forkobo",
+    "retry": "Retry",
+    "terms": {
+        "base": "By continuing, you accept the ",
+        "terms": "Terms of Use ",
+        "and": "and our ",
+        "privacy": "Privacy Policy."
+    },
+    "onboarding": {
+        "buttonTitle": "Get Started",
+        "page1": {
+            "title": "Welcome to ForKobo Ecommerce",
+            "description": "Discover a world of endless possibilities. ForKobo is your all-in-one marketplace where shopping, selling, and supporting your community come together."
+        },
+        "page2": {
+            "title": "Shop Your Favorite Brands",
+            "description": "Find top products from the brands you already love. From everyday essentials to unique finds, everything you need is just a tap away."
+        },
+        "page3": {
+            "title": "Support Small Local Businesses",
+            "description": "Every purchase makes a difference. Explore products from small and local sellers, and help communities grow while enjoying authentic, high-quality items."
+        },
+        "page4": {
+            "title": "Setup Your Own Store in Seconds",
+            "description": "Turn your idea into a business instantly. Create your online store, showcase products, and start selling—all with just a few clicks, no hassle required."
+        }
+    },
+    "bottomNav": {
+        "home": "Home",
+        "saved": "Saved",
+        "message": "Message",
+        "profile": "Profile"
+    }
+ 
+}
